@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-function Meditation() {
+function NotFound() {
   return (
-    <div>Meditation</div>
+    <div>404 Page not found</div>
   )
 }
 
-export default Meditation
+export default NotFound
