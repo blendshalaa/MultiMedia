@@ -7,6 +7,7 @@ import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import AboutUs from "./Pages/AboutUs"
 import Meditation from "./Pages/Meditation"
 import NotFound from "./Components/NotFound"
+import Loader from "./Components/Loader"
 
 
 
@@ -44,6 +45,7 @@ function App() {
     <>
    
       <RouterProvider router={router}>
+     
       <HomePage/>
       </RouterProvider>
 
