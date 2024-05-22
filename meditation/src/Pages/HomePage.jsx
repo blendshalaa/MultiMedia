@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbar'
 import Loader from '../Components/Loader'
 import Hero from '../Components/Hero'
 import { useEffect } from 'react'
+import Section from '../Components/Section'
 
 function HomePage() {
   const[loading,setIsLoading]=useState(false)
@@ -28,6 +29,7 @@ function HomePage() {
     
         <Navbar/>
         <Hero/>
+        <Section/>
         </>
     )}
     </div>
