@@ -6,10 +6,10 @@ import LottieAnimation from './LottieAnimation';
 function Hero() {
   return (
     <div>
-      <section className="hero has-background-success-90 is-medium">
+      <section className="hero has-background-success-90 is-small">
         <div className="hero-body">
           <div className="columns is-vcentered">
-            <div className="column is-7 mt-6">
+            <div className="column is-6 mt-6 ml-6">
               <div>
                 <p className="title is-size-1">Daily tranquility,<br />your path to inner<br />peace begins now</p>
                 <p className="subtitle has-text-dark mt-5">Your daily path to mindful living. Experience tranquility on<br />demand with our tailored meditation subscription,

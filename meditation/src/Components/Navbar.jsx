@@ -14,8 +14,8 @@ function Navbar() {
 
   return (
    <>
-   <nav className='navbar' role='navigation' aria-label='main navigation'>
-    <div className='navbar-brand'>
+   <nav className='navbar has-background-success-90' role='navigation' aria-label='main navigation'>
+    <div className='navbar-brand '>
     
       <a role='button' className={`navbar-burger${isActive?"is-active":""}`} aria-label='menu' aria-expanded={isActive?true:false} data-target="navbarBasicExample" onClick={handleBurgerClick}>
       <span aria-hidden="true"></span>
