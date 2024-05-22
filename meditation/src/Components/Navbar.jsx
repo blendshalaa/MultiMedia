@@ -1,42 +1,23 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useState } from 'react'
 import "bulma/css/bulma.css"
-import { useEffect } from 'react';
 
+import animation from "../assets/animation.gif"
 function Navbar() {
-  useEffect(() => {
-  
-    const handleBurgerClick = (event) => {
-      const el = event.currentTarget;
-      
-      const target = el.dataset.target;
-      const targetElement = document.getElementById(target);
 
-    
-      el.classList.toggle('is-active');
-      if (targetElement) {
-        targetElement.classList.toggle('is-active');
-      }
-    };
+  const[isActive,setIsActive]=useState(false);
 
- 
-    const navbarBurgers = document.querySelectorAll('.navbar-burger');
-    navbarBurgers.forEach(el => {
-      el.addEventListener('click', handleBurgerClick);
-    });
+  function handleBurgerClick(){
+    setIsActive(!isActive)
+  }
 
-    return () => {
-      navbarBurgers.forEach(el => {
-        el.removeEventListener('click', handleBurgerClick);
-      });
-    };
-  }, []);
+
   return (
    <>
    <nav className='navbar' role='navigation' aria-label='main navigation'>
     <div className='navbar-brand'>
     
-      <a role='button' className='navbar-burger' aria-label='menu' aria-expanded="false" data-target="navbarBasicExample">
+      <a role='button' className={`navbar-burger${isActive?"is-active":""}`} aria-label='menu' aria-expanded={isActive?true:false} data-target="navbarBasicExample" onClick={handleBurgerClick}>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -44,26 +25,27 @@ function Navbar() {
       </a>
     </div>
 
-    <div id='navbarBasicExample' className='navbar-menu mt-3 pl-6  '>
+    <div id='navbarBasicExample' className={ `navbar-menu  pl-6 ${!isActive?"is-active":""}`}>
       <div className='navbar-start '>
-      <a className='navbar-item mr-5 is-size-1 has-text-success'>
+        <img src={animation} ></img>
+      <a className='navbar-item mr-5 is-size-1  is-bold'>
          Meditate
         </a>
       </div>
       <div className='navbar-end '>
    
-        <a className='navbar-item mr-5 is-size-4'>
+        <a className='navbar-item mr-5 is-size-5'>
           Programs
         </a>
-        <a className='navbar-item mr-5 is-size-4'>
+        <a className='navbar-item mr-5 is-size-5'>
           Guides
         </a>
-        <a className='navbar-item mr-5 is-size-4'>
+        <a className='navbar-item mr-5 is-size-5'>
           Sounds
         </a>
         <div className='navbar-item '>
           <div className='buttons mr-5'>
-            <a className='button is-primary has-text-white '>
+            <a className='button is-success has-text-white '>
               <strong>Contact Us</strong>
             </a>
           </div>
