@@ -10,7 +10,7 @@ function LottieAnimation() {
           src="https://lottie.host/239fad35-ad6b-41f5-8a65-cf20088c6c12/82dGtAbqB5.json"
           background="transparent"
           speed={1}
-          style={{ width: '600px', height: '600px' }}
+          style={{ width: '500px', height: '500px' }}
           loop
           autoplay
         />

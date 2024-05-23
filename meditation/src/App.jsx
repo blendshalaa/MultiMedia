@@ -8,7 +8,7 @@ import AboutUs from "./Pages/AboutUs"
 import Meditation from "./Pages/Meditation"
 import NotFound from "./Components/NotFound"
 import Loader from "./Components/Loader"
-import "../styles/index.css"
+
 
 
 

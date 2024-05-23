@@ -8,8 +8,8 @@ function Hero() {
     <div>
       <section className="hero has-background-success-90 is-small">
         <div className="hero-body">
-          <div className="columns is-vcentered">
-            <div className="column is-6 mt-6 ml-6">
+          <div className="columns is-vcentered ml-5">
+            <div className="column  mt-6 ml-6">
               <div>
                 <p className="title is-size-1">Daily tranquility,<br />your path to inner<br />peace begins now</p>
                 <p className="subtitle has-text-dark mt-5">Your daily path to mindful living. Experience tranquility on<br />demand with our tailored meditation subscription,
@@ -20,7 +20,7 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <div className="column is-5 is-flex is-justify-content-center is-align-items-center">
+            <div className="column  is-5 is-flex is-justify-content-center is-align-items-center">
               <LottieAnimation />
             </div>
           </div>
