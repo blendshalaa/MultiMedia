@@ -20,7 +20,7 @@
   .logos {
     overflow: hidden;
     padding: 60px 0;
-    background: white;
+    background: rgb(255, 255, 255);
     white-space: nowrap;
     position: relative;
   }
