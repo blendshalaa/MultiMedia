@@ -6,6 +6,7 @@ import Hero from '../Components/Hero'
 import { useEffect } from 'react'
 import Section from '../Components/Section'
 import InspirationSection from '../Components/InspirationSection'
+import QuoteSection from '../Components/QuoteSection'
 
 function HomePage() {
   const[loading,setIsLoading]=useState(false)
@@ -32,6 +33,7 @@ function HomePage() {
         <Hero/>
         <Section/>
         <InspirationSection/>
+        <QuoteSection/>
         </>
     )}
     </div>
