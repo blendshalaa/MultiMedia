@@ -1,0 +1,20 @@
+/* QuoteCard.css */
+
+.small-card {
+    width: 500px;
+    height: 200px; /* Set a fixed width for the card */
+  /* Center the card and add some margin */
+  cursor: pointer;
+  }
+  
+  .profile-image {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px; /* Reduce padding for a more compact card */
+  }
+  
+  

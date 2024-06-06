@@ -7,6 +7,8 @@ import { useEffect } from 'react'
 import Section from '../Components/Section'
 import InspirationSection from '../Components/InspirationSection'
 import QuoteSection from '../Components/QuoteSection'
+import Footer from '../Components/Footer'
+import Subscriptions from '../Components/Subscriptions'
 
 function HomePage() {
   const[loading,setIsLoading]=useState(false)
@@ -34,6 +36,8 @@ function HomePage() {
         <Section/>
         <InspirationSection/>
         <QuoteSection/>
+        <Subscriptions/> 
+        <Footer/>
         </>
     )}
     </div>
