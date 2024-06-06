@@ -1,11 +1,19 @@
 /* QuoteCard.css */
 
 .small-card {
-    width: 500px;
-    height: 200px; /* Set a fixed width for the card */
-  /* Center the card and add some margin */
+  width: 500px;
+  height: 200px; /* Set a fixed width and height for the card */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+  margin: 20px auto; /* Center the card and add some margin */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visual effect */
+  border-radius: 8px; /* Optional: add rounded corners */
+  background-color: #f0f0f0; /* Optional: background color */
+}
+
+.small-card:hover {
   cursor: pointer;
-  }
+  transform: scale(1.05); /* Slightly increase the size on hover */
+}
   
   .profile-image {
     width: 48px;

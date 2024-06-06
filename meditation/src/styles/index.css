@@ -1,2 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.facebookicon {
+    color: #3b5998; /* Facebook blue color */
+
+  }
+  
+  .twittericon {
+    color: #1da1f2; /* Twitter blue color */
+
+  }
+  
+  .instagramicon {
+    color: #e1306c; /* Instagram pink color */
+  
+  }
+  .icon{
+    margin: 10px;
+  }
