@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-function Meditation() {
+function Guides() {
   return (
-    <div>Meditation</div>
+    <div>Guides</div>
   )
 }
 
-export default Meditation
+export default Guides

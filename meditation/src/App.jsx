@@ -4,10 +4,10 @@ import React from "react"
 import HomePage from "./Pages/HomePage"
 import Contact from "./Pages/Contact"
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
-import AboutUs from "./Pages/AboutUs"
-import Meditation from "./Pages/Meditation"
 import NotFound from "./Components/NotFound"
 import Loader from "./Components/Loader"
+import Sounds from "./Pages/Sounds"
+import Guides from "./Pages/Guides"
 
 
 
@@ -26,15 +26,16 @@ const router=createBrowserRouter([
 
   },
   {
-    path:"/AboutUs",
-    element:<AboutUs/>,
+    path:"/Sounds",
+    element:<Sounds/>,
     errorElement:<NotFound/>
   },
   {
-    path:'/Meditation',
-    element:<Meditation/>,
+    path:"/Guides",
+    element:<Guides/>,
     errorElement:<NotFound/>
   }
+ 
 
 ])
 

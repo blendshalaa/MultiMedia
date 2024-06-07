@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import "bulma/css/bulma.css"
+import { Link } from 'react-router-dom';
 
 import animation from "../assets/animation.gif"
 function Navbar() {
@@ -34,20 +35,20 @@ function Navbar() {
       </div>
       <div className='navbar-end '>
    
-        <a className='navbar-item mr-5 is-size-5'>
-          Programs
-        </a>
-        <a className='navbar-item mr-5 is-size-5'>
+        <Link to='/' className='navbar-item mr-5 is-size-5'>
+         Home
+        </Link>
+        <Link to='/guides' className='navbar-item mr-5 is-size-5'>
           Guides
-        </a>
-        <a className='navbar-item mr-5 is-size-5'>
+        </Link>
+        <Link to='/sounds' className='navbar-item mr-5 is-size-5'>
           Sounds
-        </a>
+        </Link>
         <div className='navbar-item '>
           <div className='buttons mr-5'>
-            <a className='button is-success has-text-white '>
+            <Link to='/contact' className='button is-success has-text-white '>
               <strong>Contact Us</strong>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
