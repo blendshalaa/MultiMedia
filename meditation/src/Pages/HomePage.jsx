@@ -9,6 +9,7 @@ import InspirationSection from '../Components/InspirationSection'
 import QuoteSection from '../Components/QuoteSection'
 import Footer from '../Components/Footer'
 import Subscriptions from '../Components/Subscriptions'
+import ParallaxBackground from '../pixifolder/ParallaxBackground'
 
 function HomePage() {
   const[loading,setIsLoading]=useState(false)
@@ -33,6 +34,7 @@ function HomePage() {
     
         <Navbar/>
         <Hero/>
+        <ParallaxBackground/>
         <Section/>
         <InspirationSection/>
         <QuoteSection/>

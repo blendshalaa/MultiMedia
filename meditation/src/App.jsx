@@ -8,6 +8,7 @@ import NotFound from "./Components/NotFound"
 import Loader from "./Components/Loader"
 import Sounds from "./Pages/Sounds"
 import Guides from "./Pages/Guides"
+import ParallaxBackground from "./pixifolder/ParallaxBackground"
 
 
 
@@ -49,6 +50,7 @@ function App() {
       <RouterProvider router={router}>
      
       <HomePage/>
+     
       </RouterProvider>
 
    
