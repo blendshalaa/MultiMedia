@@ -38,8 +38,8 @@ function Navbar() {
         <Link to='/' className='navbar-item mr-5 is-size-5'>
          Home
         </Link>
-        <Link to='/guides' className='navbar-item mr-5 is-size-5'>
-          Guides
+        <Link to='/classes' className='navbar-item mr-5 is-size-5'>
+         Classes
         </Link>
         <Link to='/sounds' className='navbar-item mr-5 is-size-5'>
           Sounds

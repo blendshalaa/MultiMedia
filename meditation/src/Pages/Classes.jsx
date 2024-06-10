@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-function Guides() {
+function Classes() {
   return (
-    <div>Guides</div>
+    <div>Classes</div>
   )
 }
 
-export default Guides
+export default Classes

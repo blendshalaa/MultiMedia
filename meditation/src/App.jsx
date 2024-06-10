@@ -7,7 +7,7 @@ import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import NotFound from "./Components/NotFound"
 import Loader from "./Components/Loader"
 import Sounds from "./Pages/Sounds"
-import Guides from "./Pages/Guides"
+import Classes from "./Pages/Classes"
 
 
 
@@ -32,8 +32,8 @@ const router=createBrowserRouter([
     errorElement:<NotFound/>
   },
   {
-    path:"/Guides",
-    element:<Guides/>,
+    path:"/Classes",
+    element:<Classes/>,
     errorElement:<NotFound/>
   }
  
