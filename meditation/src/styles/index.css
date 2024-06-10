@@ -40,3 +40,15 @@
     border-radius: 12px; /* Match the container's rounded corners */
   }
   
+  .cardbox{
+    width: 750px;
+   
+  }
+  .clascards:hover{
+    cursor: pointer;
+   
+  }
+  .clascard2:hover{
+    transform: scale(1.05); /* Scale the card by 5% when hovered over */
+    transition: transform 0.5s ease; 
+  }
