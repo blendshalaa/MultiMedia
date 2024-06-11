@@ -24,7 +24,7 @@ function Section() {
         <img src={buzzfeed}/>
         <img src={forbes} />
         <img src={macys} />
-        <img src={menshealth} />
+    
    
       </div>
       <div className="logos-slide">
