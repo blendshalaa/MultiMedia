@@ -14,7 +14,7 @@ function InspirationSection() {
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.2, // Adjust as needed
+      threshold: 0.1, // Adjust as needed
     };
 
     const handleIntersection = (entries) => {

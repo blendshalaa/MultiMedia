@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import SubscriptionBox from './SubscriptionBox'
+import '../styles/index.css'
 
 function Subscriptions() {
   return (

@@ -75,3 +75,16 @@
     }
   }
   
+  .sub-box:hover{
+    cursor: pointer;
+    transform: scale(1.05); /* Scale the card by 5% when hovered over */
+    transition: transform 0.5s ease; 
+  }
+  .journey-block {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out; /* Smooth fade-in animation */
+  }
+  
+  .journey-block--animated {
+    opacity: 1; 
+  }
