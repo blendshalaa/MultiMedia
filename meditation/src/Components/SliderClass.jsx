@@ -27,7 +27,7 @@ function SliderClass() {
           keyboard={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
           className="mySwiper"
-          style={{width:"80%",height:"auto", display:"flex",
+          style={{width:"100%",height:"auto", display:"flex",
              justifyContent:"center",alignItems:"center"
           }}
           breakpoints={{
@@ -44,7 +44,7 @@ function SliderClass() {
               spaceBetween: 20,
             },
             1524: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 60,
             },
           }}
