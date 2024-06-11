@@ -50,26 +50,26 @@ function SliderClass() {
           }}
         >
           <SwiperSlide>
-           <img style={{width:"500px"}}  src={img1} alt="" />
+           <img style={{width:"600px"}}  src={img1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-          <img style={{width:"500px"}} src={img2} alt="" />
+          <img style={{width:"600px"}} src={img2} alt="" />
 
           </SwiperSlide>
           <SwiperSlide>
-          <img style={{width:"500px"}} src={img3} alt="" />
+          <img style={{width:"600px"}} src={img3} alt="" />
 
           </SwiperSlide>
           <SwiperSlide>
-          <img style={{width:"500px"}} src={img4} alt="" />
+          <img style={{width:"600px"}} src={img4} alt="" />
 
           </SwiperSlide>
           <SwiperSlide>
-          <img style={{width:"500px"}} src={img5} alt="" />
+          <img style={{width:"600px"}} src={img5} alt="" />
 
           </SwiperSlide> 
           <SwiperSlide>
-          <img style={{width:"500px"}} src={img6} alt="" />
+          <img style={{width:"600px"}} src={img6} alt="" />
 
           </SwiperSlide>
         </Swiper>
