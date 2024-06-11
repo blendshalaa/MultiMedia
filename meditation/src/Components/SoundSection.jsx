@@ -6,10 +6,9 @@ function SoundSection() {
   return (
     <div>
         <section className="section is-medium">
-  <h1 className="title">Large section</h1>
+  <h1 className="title">Relaxing Meditation</h1>
   <h2 className="subtitle">
-    A simple container to divide your page into <strong>sections</strong>, like
-    the one youre currently reading.
+  Find your inner peace with this guided meditation
   </h2>
   <AudioList/>
 </section>

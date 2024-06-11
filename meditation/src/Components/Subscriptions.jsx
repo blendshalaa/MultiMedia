@@ -5,7 +5,7 @@ import SubscriptionBox from './SubscriptionBox'
 function Subscriptions() {
   return (
     <div>
-        <section className="section is-medium">
+        <section id='subscriptions' className="section is-medium">
   <h1 className="subtitle">Subscriptions</h1>
   <h2 className="title">
   Nourishing your mind within budget

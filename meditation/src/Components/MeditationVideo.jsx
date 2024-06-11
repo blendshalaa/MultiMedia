@@ -1,7 +1,5 @@
-/* eslint-disable no-unused-vars */
-import React from 'react'
-import '../styles/index.css'
-
+import React from 'react';
+import '../styles/index.css';
 
 function MeditationVideo() {
   return (
@@ -10,8 +8,8 @@ function MeditationVideo() {
         <div className="column is-three-quarters">
           <div className="video-container">
             <iframe
-              src="https://www.youtube.com/embed/lACf4O_eSt0?si=ch7LyqRXS1ZqknT-"
-              title="YouTube video player"
+              src="https://www.youtube.com/embed/ZToicYcHIOU"  // Updated to a different video URL
+              title="Meditation Music"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
